@@ -1,0 +1,70 @@
+body{
+    font-family: 'Tinos';
+}
+
+p{
+    font-family: 'Open sans';  
+}
+h1{
+    font-family: 'Impact';
+}
+nav {
+    font-size:20px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+.parallax {
+    /* The image used */
+    background-image: url("../images/CrabScale88.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    /* background-size: 2000px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.journeySection{
+    height:820px;
+    background-color:#941C1E;
+    background-image:url("../images/wave-red4.jpg"); 
+    background-size:1650px;
+}
+
+.map{
+    background-image: url("../images/screenshot_map.png");
+    background-size:491px;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/DimSumScale88.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menuSection{
+    padding-top:60px;
+    padding-bottom:60px;
+    
+    background-color:#212529;
+    /* background-image:url("../images/wave-red.jpg");  */
+    background-size:1200px;
+}
