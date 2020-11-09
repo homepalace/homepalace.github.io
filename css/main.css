@@ -102,10 +102,10 @@ a:link {
 }
 @media screen and (max-width: 780px) {
     .parallax{
-        background-size: 800px;
+        background-size: 900px;
     }
     .parallax2{
-        background-size: 800px;
+        background-size: 1500px;
     }
     .menuSection{
         padding-right:10px;
