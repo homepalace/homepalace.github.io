@@ -1,17 +1,20 @@
 body{
-    font-family: 'Tinos';
+    font-family: 'Open sans';
 }
 
 p{
     font-family: 'Open sans';  
 }
 h1{
-    font-family: 'Impact';
+    font-family: 'Lucida Bright';
 }
 nav {
-    font-size:20px;
+    font-size:18px;
 }
 
+.navbar {
+    background: none;
+  }
 a:link {
     text-decoration: none;
   }
@@ -24,21 +27,28 @@ a:link {
     background-image: url("../images/CrabScale88.jpg");
   
     /* Set a specific height */
-    min-height: 600px; 
-  
+    min-height: 625px;
+    height:100%;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: bottom;
-    /* background-size: 2000px; */
-    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    */background-position: top;/*
+    */background-size: 1500px;/*
+    background-repeat: no-repeat; */
     background-size: cover;
 }
 
 .journeySection{
-    height:820px;
+    /* height:820px; */
+    padding-top:80px;
     background-color:#941C1E;
     background-image:url("../images/wave-red4.jpg"); 
     background-size:1650px;
+    padding-bottom:100px;
+    position:relative;
+    padding:30px; padding-left:200px; padding-right:200px;letter-spacing: 0.25cm;
+}
+.aboutUsImage{
+    background-image:url('../images/About\ Us\ Ho-Me\ Palace.jpg')
 }
 
 .map{
@@ -63,8 +73,57 @@ a:link {
 .menuSection{
     padding-top:60px;
     padding-bottom:60px;
-    
+    padding-left:100px;
+    padding-right:100px;
     background-color:#212529;
     /* background-image:url("../images/wave-red.jpg");  */
     background-size:1200px;
 }
+.ieb93uuq_ieb93uuq{
+    width:341px;height:342px;
+}
+.menuWord{
+    z-index: 9999; color:#FCF6F5FF; position: relative; top:230px;
+}
+.journeySectionP{
+    text-align:justify; color:white;font-size:20px; font-family:'Open Sans';font-weight:600;
+}
+.journeySectionDiv{
+    width:70%;margin:auto;padding-bottom:30px;padding-top:50px;
+}
+.div-empty{
+    height:700px;
+}
+.icon-class{
+    padding:5px;
+}
+@media screen and (max-width: 780px) {
+    .parallax{
+        background-size: 900px;
+    }
+    .menuSection{
+        padding-right:10px;
+        padding-left:10px;
+    }
+    .ieb93uuq_ieb93uuq{
+        width:241px;height:242px;
+        margin-left:50px;
+    }
+    .menuWord{
+        top:200px;
+    }
+
+    .journeySection{
+
+        padding:30px; padding-left:20; padding-right:20;letter-spacing: 0.25cm;
+    }
+    .journeySectionP{
+        text-align:left; color:white;font-size:15px;
+    }
+    .journeySectionDiv{
+        width:100%;
+    }
+    .div-empty{
+        height:400px;
+    }
+  }
