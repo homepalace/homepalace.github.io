@@ -86,7 +86,7 @@ a:link {
     z-index: 9999; color:#FCF6F5FF; position: relative; top:230px;
 }
 .journeySectionP{
-    text-align:justify; color:white;font-size:18px; font-family:'Open Sans';font-weight:600;
+    text-align:justify; color:white;font-size:18px; font-family:'Open Sans',Helvetica,sans-serif;font-weight:600;
 }
 .journeySectionPDiv{
     width:50%;margin:auto;padding-bottom:30px;padding-top:50px;
