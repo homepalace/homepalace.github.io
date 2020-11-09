@@ -86,7 +86,10 @@ a:link {
     z-index: 9999; color:#FCF6F5FF; position: relative; top:230px;
 }
 .journeySectionP{
-    text-align:justify; color:white;font-size:20px; font-family:'Open Sans';font-weight:600;
+    text-align:justify; color:white;font-size:18px; font-family:'Open Sans';font-weight:600;
+}
+.journeySectionPDiv{
+    width:50%;margin:auto;padding-bottom:30px;padding-top:50px;
 }
 .journeySectionDiv{
     width:70%;margin:auto;padding-bottom:30px;padding-top:50px;
@@ -99,7 +102,10 @@ a:link {
 }
 @media screen and (max-width: 780px) {
     .parallax{
-        background-size: 900px;
+        background-size: 800px;
+    }
+    .parallax2{
+        background-size: 800px;
     }
     .menuSection{
         padding-right:10px;
@@ -121,6 +127,9 @@ a:link {
         text-align:left; color:white;font-size:15px;
     }
     .journeySectionDiv{
+        width:100%;
+    }
+    .journeySectionPDiv{
         width:100%;
     }
     .div-empty{
