@@ -102,7 +102,7 @@ a:link {
 }
 @media screen and (max-width: 780px) {
     .parallax{
-        background-size: 900px;
+        background-size: 1200px;
     }
     .parallax2{
         background-size: 1500px;
